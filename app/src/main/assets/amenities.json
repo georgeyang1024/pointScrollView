@@ -1,0 +1,586 @@
+{
+  map_id: "M01",
+  map_url: "stadiumMap.jpg",
+  map_name: "Stadium",
+  map_width: "1597",
+  map_height: "1832",
+  category: [
+    {
+      cid: "0",
+      cname: "SHOW ALL",
+      cicon: "showAll@2x.png"
+    },
+    {
+      cid: "1",
+      cname: "Food & Drink",
+      cicon: "foodAnddrink@2x.png"
+    },
+    {
+      cid: "2",
+      cname: "MERCHANDISE",
+      cicon: "merchandise@2x.png"
+    },
+    {
+      cid: "3",
+      cname: "RESTROOMS",
+      cicon: "restroom@2x.png"
+    },
+    {
+      cid: "4",
+      cname: "Elevators&Lifts",
+      cicon: "elevator@2x.png"
+    },
+    {
+      cid: "5",
+      cname: "INFORMATION",
+      cicon: "info@2x.png"
+    },
+    {
+      cid: "6",
+      cname: "MEDICAL",
+      cicon: "medical@2x.png"
+    }
+  ],
+  amenities: [
+    {
+      itemid: "1",
+      x: "283",
+      y: "95",
+      category: "1",
+      name: "Pizza",
+      icon: "icon_drink.png",
+      image: "Pizza.jpg",
+      description: "Under section 121. Fresh baked pizza by the slice,hot dogs,pretzels,nachos,popcorn,beer,soda and water. Pepperoni Pizza,Cheese Pizza,Vegan Pizza Stadium Dog,Chili and Cheese dogs,Popcorn,Bavarian Pretzel,Peanuts,Chips and Candy. Premium and Domestic drafts,bottled soda and water,Snapple and Coffee/Hot Chocolate."
+    },
+    {
+      itemid: "2",
+      x: "125",
+      y: "303",
+      category: "1",
+      name: "Sky Bar",
+      icon: "icon_drink.png",
+      image: "Sky_Bar.jpg",
+      description: "Located in the upper deck of section122. Pretzels,Peanuts,Chips and Kettle Korn. Beer,wine,soda,liquor and water."
+    },
+    {
+      itemid: "3",
+      x: "80",
+      y: "588",
+      category: "1",
+      name: "Fresh Classics",
+      icon: "icon_food.png",
+      image: "Fresh_Classics.jpg",
+      description: "Under section 124.Specialty items:The Q Nacho,Grande Nacho,Grilled VegetableWrap-Gluten Free available Stadium Dog,Chili and Cheese dogs,Popcorn,Bavarian Pretzel,Peanuts,Chips and Candy. Premium and Domestic drafts,bottled soda and water,Snapple and Coffee/Hot Chocolate."
+    },
+    {
+      itemid: "4",
+      x: "80",
+      y: "687",
+      category: "1",
+      name: "Beer Cart",
+      icon: "icon_drink.png",
+      image: "Beer_Cart.jpg",
+      description: "Under section 125. Import and domestic bottled and draft beer selections,and soda,water,and Snapple,Gluten Free beer options including Omission IPA."
+    },
+    {
+      itemid: "5",
+      x: "80",
+      y: "980",
+      category: "1",
+      name: "Beer Cart",
+      icon: "icon_drink.png",
+      image: "Beer_Cart.jpg",
+      description: "Under section 128. Import and domestic bottled and draft beer selections,and soda,water,and Snapple,Gluten Free beer options including Omission IPA."
+    },
+    {
+      itemid: "6",
+      x: "80",
+      y: "1181",
+      category: "1",
+      name: "Beer Cart",
+      icon: "icon_drink.png",
+      image: "Beer_Cart.jpg",
+      description: "Under section 130. Import and domestic bottled and draft beer selections,and soda,water,and Snapple,Gluten Free beer options including Omission IPA."
+    },
+    {
+      itemid: "7",
+      x: "80",
+      y: "1477",
+      category: "1",
+      name: "Fresh Classics",
+      icon: "icon_food.png",
+      image: "Fresh_Classics.jpg",
+      description: "Under section 133. Specialty items:The Q Nacho,Grande Nacho Stadium Dog,Chili and Cheese dogs,Popcorn,Bavarian Pretzel,Peanuts,Chips and Candy. Premium and Domestic drafts,bottled soda and water,Snapple and Coffee/Hot Chocolate. "
+    },
+    {
+      itemid: "8",
+      x: "80",
+      y: "1628",
+      category: "1",
+      name: "Beer Cart",
+      icon: "icon_drink.png",
+      image: "Beer_Cart.jpg",
+      description: "Side of Section 134. Import and domestic bottled and draft beer selections,and soda,water,and Snapple.Gluten Free beer options."
+    },
+    {
+      itemid: "9",
+      x: "159",
+      y: "1628",
+      category: "1",
+      name: "Carvery Cart",
+      icon: "icon_food.png",
+      image: "Carvery_Cart.jpg",
+      description: "Under section 134. Honey Smoked Turkey,Roast Pork Sandwich and Sweet Carolina Slaw navailable for all sandwiches. Sides and snacks include Country Potato Salad,Peanuts,Chips. Drink selection includes Premium and Domestic Bombers,Wine,Bottled Soda and Water"
+    },
+    {
+      itemid: "10",
+      x: "223",
+      y: "1628",
+      category: "1",
+      name: "Sausage Cart",
+      icon: "icon_food.png",
+      image: "Sausage_Cart.jpg",
+      description: "Behind section 134. Italian Sausages,Bratwurst,Linquica,Bacon,Wrapped Hot Dogs. Premium and Domestic Bombers,Wine,Bottled soda and Bottled Water"
+    },
+    {
+      itemid: "11",
+      x: "577",
+      y: "1687",
+      category: "1",
+      name: "BBQ at the 7UP Epicenter",
+      icon: "icon_food.png",
+      image: "",
+      description: "Watch the pit masters smoke savory meats.Entrees include BBQ Beef Brisket,Tri Tip,Brisket Burgers,BBQ Pulled Pork,Q Nacho and Hot Dogs,Sides include Garlic and Regular Fries,Mac and Cheese,Double Smoked Beans,and Sweet Carolina Slaw."
+    },
+    {
+      itemid: "12",
+      x: "749",
+      y: "1687",
+      category: "1",
+      name: "Scoreboard Bar-7UP Epicenter",
+      icon: "icon_drink.png",
+      image: "",
+      description: "Located near the Scoreboard Bar and Section 101. Specialty items:Q Nacho,Grande Nacho. Stadium Dog,Chili and Cheese dogs,Popcorn,Bavarian Pretzel,Peanuts,Chips and Candy. Premium and Domestic drafts,bottled soda and water,Snapple and Coffee/Hot Chocolate."
+    },
+    {
+      itemid: "13",
+      x: "947",
+      y: "1687",
+      category: "1",
+      name: "Fresh Classics",
+      icon: "icon_food.png",
+      image: "Fresh_Classics.jpg",
+      description: "Located near the Scoreboard Bar and Section 101. Specialty items:Q Nacho,Grande Nacho. Stadium Dog,Chili and Cheese dogs,Popcorn,Bavarian Pretzel,Peanuts,Chips and Candy. Premium and Domestic drafts,bottled soda and water,Snapple and Coffee/Hot Chocolate."
+    },
+    {
+      itemid: "14",
+      x: "1454",
+      y: "1498",
+      category: "1",
+      name: "Fresh Classics",
+      icon: "icon_food.png",
+      image: "Fresh_Classics.jpg",
+      description: "Under section 101. Specialty items: Grilled vegetable Wrep-Gluten Free available Seasonal Salad:Southwest Chicken Caesar Basil Pesto Hummus with pita chips Stadium Dog,Chili and Cheese dogs,Popcorn,Bavarian Pretzel,Peanuts,Chips and Candy. Premium and Domestic drafts,bottled soda and water,Snapple and Coffee/Hot Chocolate."
+    },
+    {
+      itemid: "15",
+      x: "1454",
+      y: "1398",
+      category: "1",
+      name: "Beer Cart",
+      icon: "icon_drink.png",
+      image: "Beer_Cart.jpg",
+      description: "Under section 102. Import and domestic bottled and draft beer selections,and soda,water,and Snapple,Gluten Free beer options including Omission IPA."
+    },
+    {
+      itemid: "16",
+      x: "1454",
+      y: "1108",
+      category: "1",
+      name: "Wine Cart",
+      icon: "icon_drink.png",
+      image: "Wine_Cart.jpg",
+      description: "Under section 105. Locally produced California wines Snack options include:Kettle Korn,Peanuts,Chips,Soda,Water"
+    },
+    {
+      itemid: "17",
+      x: "1454",
+      y: "811",
+      category: "1",
+      name: "BBQ Cart",
+      icon: "icon_food.png",
+      image: "BBQ_Cart.jpg",
+      description: "Under section 108. Entree options include:Beef Brisket sandwich,Pulled pork sandwich Side potions include:Mac-n-cheese,Texas DD smoked beans,Sweet Carolina Slaw,Country Potato Salad Snacks:Peanuts,Chips,Premium and Domestic Bombers,Wine,Soda,Water"
+    },
+    {
+      itemid: "18",
+      x: "1356",
+      y: "1108",
+      category: "1",
+      name: "Beer Cart",
+      icon: "icon_drink.png",
+      image: "Beer_Cart.jpg",
+      description: "Under section 108. Import and domestic bottled and draft beer selections,and soda,water,and Snapple,Gluten Free beer options including Omission IPA."
+    },
+    {
+      itemid: "19",
+      x: "1268",
+      y: "811",
+      category: "1",
+      name: "Sliders Cart",
+      icon: "icon_food.png",
+      image: "Sliders_Cart.jpg",
+      description: "Under section 108. Cheese burger sliders Pulled pork sliders Portuguese Heritage Night(8/14) special:Linquica with Peppers and Onions on Hoagie Bun Peanuts,chips,premium and domestic bombers,wine,soda,water."
+    },
+    {
+      itemid: "20",
+      x: "1454",
+      y: "606",
+      category: "1",
+      name: "Fresh Classics",
+      icon: "icon_food.png",
+      image: "Fresh_Classics.jpg",
+      description: "Stadium Dog,Chili and Cheese dogs,Popcorn,Bavarian Pretzel,Peanuts,Chips and Candy. Portuguese Heritage Night(8/14) special:Linquica with Peppers and Onions on Hoagie Bun Premium and Domestic drafts,bottled soda and water,Snapple and Coffee/Hot Chocolate."
+    },
+    {
+      itemid: "21",
+      x: "1454",
+      y: "504",
+      category: "1",
+      name: "Beer Cart",
+      icon: "icon_drink.png",
+      image: "Beer_Cart.jpg",
+      description: "Under section 111. Import and domestic bottled and draft beer selections,and soda,water,and Snapple,Gluten Free beer options including Omission IPA."
+    },
+    {
+      itemid: "22",
+      x: "1290",
+      y: "108",
+      category: "1",
+      name: "Sky Bar",
+      icon: "icon_drink.png",
+      image: "Sky_Bar.jpg",
+      description: "Located in the upper deck of section113. Pretzels,Peanuts,Chips and Kettle Korn. Beer,wine,soda,liquor and water."
+    },
+    {
+      itemid: "23",
+      x: "1083",
+      y: "78",
+      category: "1",
+      name: "The Grill",
+      icon: "icon_food.png",
+      image: "The_Grill.jpg",
+      description: "Under section 114 Specialty items: Field & Coop Burger, The Smoker,Field Roast Burger - Vegetarian,Classic Hamburger orCheeseburger, Garlic Fries, French Fries, Chicken Strip Basket, Volcano Style Chicken Strip Basket, Grande Nachos Stadium Dog, Chili and Cheese Dogs, Popcorn, Bavarian Pretzel,Peanuts, Chips and Candy. Premium and Domestic drafts,bottled soda and water, Snapple and Coffee/ Hot Chocolate."
+    },
+    {
+      itemid: "24",
+      x: "787",
+      y: "78",
+      category: "1",
+      name: "BBQ Cart",
+      icon: "icon_food.png",
+      image: "BBQ_Cart.jpg",
+      description: "Under section 108.Entree options include:Beef Brisket sandwich,Pulled pork sandwich Side options include:Mac-n-Cheese Snacks:Peanuts,Chips,Premium and Domestic Bombers,Wine,Soda,Water"
+    },
+    {
+      itemid: "25",
+      x: "687",
+      y: "78",
+      category: "1",
+      name: "Beers Of The World",
+      icon: "icon_drink.png",
+      image: "",
+      description: "Under sections 117 and 118. Large scope of beers from around the world, including many of California's best brews. Selections (subject to availability):Angry Orchard, Bass Pale Ale*,Beck's, Boddingtons, Blue Moon,Corona, Drakes Hefeweizen*,Firestone 805 Blonde Honey Ale*,Gordon Biersch Golden Export*,Gordon Biersch Hefe, GordonBiersch Marzen, Guinness, Harp,Heineken, Lagunitas |PA*, Lost Coast White Tangerine, Mike's Hard Lemonade, Mike's Hard StrawLemonade, Mike's Hard Mango Punch, Modelo, Negra Modelo*, New Castle Nut Brown,Omission IPA Gluten Free, Pacifico,Palo Alto Irish Red*, Palo Alto"
+    },
+    {
+      itemid: "26",
+      x: "125",
+      y: "303",
+      category: "3",
+      name: "Women's Restroom",
+      icon: "icon_female_restroom.png",
+      image: " ",
+      description: "Under section 122. Women's restroom."
+    },
+    {
+      itemid: "27",
+      x: "80",
+      y: "687",
+      category: "3",
+      name: "Women's Restroom",
+      icon: "icon_female_restroom.png",
+      image: " ",
+      description: "Under section 125. Women's restroom."
+    },
+    {
+      itemid: "28",
+      x: "80",
+      y: "784",
+      category: "3",
+      name: "Family Restroom",
+      icon: "icon_restroom.png",
+      image: " ",
+      description: "Under section 126. Family restroom."
+    },
+    {
+      itemid: "29",
+      x: "80",
+      y: "884",
+      category: "3",
+      name: "Men's Restroom",
+      icon: "icon_male_restroom.png",
+      image: " ",
+      description: "Under section 127. Men's restroom."
+    },
+    {
+      itemid: "30",
+      x: "80",
+      y: "1281",
+      category: "3",
+      name: "Women's Restroom",
+      icon: "icon_male_restroom.png",
+      image: " ",
+      description: "Under section 131. Women's restroom."
+    },
+    {
+      itemid: "31",
+      x: "80",
+      y: "1628",
+      category: "3",
+      name: "Men's Restroom",
+      icon: "icon_male_restroom.png",
+      image: " ",
+      description: "Under section 134. Men's restroom."
+    },
+    {
+      itemid: "32",
+      x: "1454",
+      y: "1398",
+      category: "3",
+      name: "Men's Restroom",
+      icon: "icon_male_restroom.png",
+      image: " ",
+      description: "Under section 102. Men's restroom."
+    },
+    {
+      itemid: "33",
+      x: "1454",
+      y: "1332",
+      category: "3",
+      name: "Family Restroom",
+      icon: "icon_restroom.png",
+      image: " ",
+      description: "Under section 103. Family restroom."
+    },
+    {
+      itemid: "34",
+      x: "1454",
+      y: "1228",
+      category: "3",
+      name: "Women's Restroom",
+      icon: "icon_male_restroom.png",
+      image: " ",
+      description: "Under section 104. Women's restroom."
+    },
+    {
+      itemid: "35",
+      x: "1454",
+      y: "504",
+      category: "3",
+      name: "Family Restroom",
+      icon: "icon_restroom.png",
+      image: " ",
+      description: "Under section 115. Family restroom."
+    },
+    {
+      itemid: "36",
+      x: "1454",
+      y: "297",
+      category: "3",
+      name: "Women's Restroom",
+      icon: "icon_male_restroom.png",
+      image: " ",
+      description: "Under section 112. Women's restroom.Equipped with baby-changing station."
+    },
+    {
+      itemid: "37",
+      x: "1290",
+      y: "108",
+      category: "3",
+      name: "Men's Restroom",
+      icon: "icon_male_restroom.png",
+      image: " ",
+      description: "Under section 113. Men's restroom."
+    },
+    {
+      itemid: "38",
+      x: "1083",
+      y: "78",
+      category: "3",
+      name: "Family Restroom",
+      icon: "icon_restroom.png",
+      image: " ",
+      description: "Family Restroom behind 114. Includes baby-changing station."
+    },
+    {
+      itemid: "39",
+      x: "884",
+      y: "78",
+      category: "3",
+      name: "Women's Restroom",
+      icon: "icon_male_restroom.png",
+      image: " ",
+      description: "Under section 116. Women's restroom."
+    },
+    {
+      itemid: "40",
+      x: "585",
+      y: "78",
+      category: "3",
+      name: "Men's Restroom",
+      icon: "icon_male_restroom.png",
+      image: "",
+      description: "Under section 119. Men's restroom."
+    },
+    {
+      itemid: "41",
+      x: "125",
+      y: "303",
+      category: "5",
+      name: "ATM",
+      icon: "icon_info.png",
+      image: "",
+      description: " ATM"
+    },
+    {
+      itemid: "42",
+      x: "1356",
+      y: "1498",
+      category: "5",
+      name: "Guest Services",
+      icon: "icon_info.png",
+      image: "",
+      description: "Visit guest services by Section 101 or send a text message to 408-827-1326 to report a concern -include your section and row number(only available on match days). First aid is also located here."
+    },
+    {
+      itemid: "43",
+      x: "1454",
+      y: "1498",
+      category: "6",
+      name: "First Aid",
+      icon: "icon_aid.png",
+      image: "",
+      description: "Located in Guest Services. "
+    },
+    {
+      itemid: "44",
+      x: "1290",
+      y: "108",
+      category: "5",
+      name: "ATM",
+      icon: "icon_info.png",
+      image: "",
+      description: "ATM"
+    },
+    {
+      itemid: "45",
+      x: "125",
+      y: "303",
+      category: "4",
+      name: "Elevator",
+      icon: "icon_lifts.png",
+      image: "",
+      description: "In the corner behind section 122."
+    },
+    {
+      itemid: "46",
+      x: "339",
+      y: "1358",
+      category: "4",
+      name: "ADA Lift",
+      icon: "icon_lifts.png",
+      image: "",
+      description: "Field level near section 132,use is for ADA guests only. "
+    },
+    {
+      itemid: "47",
+      x: "1454",
+      y: "924",
+      category: "4",
+      name: "Elevator",
+      icon: "icon_lifts.png",
+      image: "",
+      description: "Behind section 107,use is reserved for media and ADA. "
+    },
+    {
+      itemid: "48",
+      x: "1081",
+      y: "381",
+      category: "4",
+      name: "ADA Lift",
+      icon: "icon_lifts.png",
+      image: "",
+      description: "Field level near section 114,use is for ADA guests only. "
+    },
+    {
+      itemid: "49",
+      x: "125",
+      y: "303",
+      category: "2",
+      name: "Team Store",
+      icon: "icon_merchandise.png",
+      image: "",
+      description: "Team store cart near section 122. Quakes gear for men, women and children. "
+    },
+    {
+      itemid: "50",
+      x: "80",
+      y: "1181",
+      category: "2",
+      name: "Team Store",
+      icon: "icon_merchandise.png",
+      image: "",
+      description: "Team store cart near section 129. Quakes gear for men, women and children."
+    },
+    {
+      itemid: "51",
+      x: "540",
+      y: "1687",
+      category: "2",
+      name: "Team Store",
+      icon: "icon_merchandise.png",
+      image: "",
+      description: "Team store trailer near section 134 by Scoreboard Bar.The best selection of Quakes gear for women and children can be found at this location."
+    },
+    {
+      itemid: "52",
+      x: "1030",
+      y: "1687",
+      category: "2",
+      name: "Team Store",
+      icon: "icon_merchandise.png",
+      image: "QuakesTeamStore_Image@2x.png",
+      description: "Team store near main gate by 7UP EPICENTER FAN ZONE. Quakes gear for men, women and children. "
+    },
+    {
+      itemid: "53",
+      x: "1416",
+      y: "1032",
+      category: "2",
+      name: "Team Store",
+      icon: "icon_merchandise.png",
+      image: "",
+      description: "Team store under section 106. Quakes gear for men, women and children."
+    },
+    {
+      itemid: "54",
+      x: "983",
+      y: "78",
+      category: "2",
+      name: "Team Store",
+      icon: "icon_merchandise.png",
+      image: "",
+      description: "Team store cart near section 115. Quakes gear for men, women and children. "
+    }
+  ]
+}
