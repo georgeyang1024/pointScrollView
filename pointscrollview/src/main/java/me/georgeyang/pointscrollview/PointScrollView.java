@@ -95,7 +95,6 @@ public class PointScrollView extends ViewGroup {
 
     private void init(Context context) {
         setBackgroundColor(Color.WHITE);
-        setMap("map_stadium.jpg");
     }
 
     @Override

@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         PointScrollView mapview = (PointScrollView) findViewById(R.id.mapview);
+        mapview.setMap("map_stadium.jpg");
         try {
             String json = FileUtil.readAssertResource(this,"amenities.json");
             JSONTokener jsonParser = new JSONTokener(json);
