@@ -11,7 +11,7 @@ a scrollview Imitation ios uiscrollview,make it support sroll weiget when zoom
 Usage
 ====
 
-To use ShowcaseView, use the Builder pattern.
+To use PointScrollView, use the Builder pattern.
 
 As an example:
 
@@ -20,6 +20,13 @@ As an example:
  mapview.setMap("map_stadium.jpg");
  mapview.drawPoint(point.x,point.y,point.getDrawableRes(this),point);
  mapview.removeAllViews();//remove all points(except map)
+ mapview.setOnPointClickListener(new PointScrollView.OnPointClickListener() {
+     @Override
+     public void onCick(View pointView, Object point) {
+     PlayGroundPoint clickPoint = (PlayGroundPoint)point;
+     Toast.makeText(getApplicationContext(),"clickPoint:" + clickPoint.description,Toast.LENGTH_SHORT).show();
+     }
+ });
 ~~~
 
 Copyright and Licensing
